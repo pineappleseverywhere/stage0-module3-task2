@@ -1,16 +1,16 @@
 package school.mjc.stage0.module3.task2;
 
-public class advancedNamingConvention {
-    private static final int adult_age = 18;
+public class AdvancedNamingConvention {
+    private static final int ADULT_AGE = 18; // Use UPPERCASE_SNAKE_CASE for constants
 
-    private int AGE;
-    private int phoneNumber;
+    private int age; // Use camelCase for instance variables
+    private int phoneNumber; // Use camelCase for instance variables
 
-    void CAllToFriend() {
-        //some code
+    public void callToFriend() { // Use camelCase for method names
+        // some code
     }
 
-    void callByNumber(int Number) {
-        //some code
+    public void callByNumber(int number) { // Use camelCase for method names
+        // some code
     }
 }
